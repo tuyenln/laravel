@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Reporters;
-
 class OutputHtml implements OutputInterface
 {
     public function format(int $price): string
